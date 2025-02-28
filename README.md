@@ -36,9 +36,10 @@ This Python script automates the generation and emailing of personalized certifi
 8. Prepare and Send Email with Certificate Attachment:
    i) Creates an email message.
    ii) Personalizes the body by replacing [Name] with the recipient’s name.
+   
    iii) Attaches the generated certificate image.
 
-9. Send Email via SMTP:
+10. Send Email via SMTP:
       i) Establishes a secure connection with the SMTP server.
       ii) Logs in and sends the email with the certificate as an attachment.
       iii) Closes the connection.
